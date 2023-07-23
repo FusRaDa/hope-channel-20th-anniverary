@@ -1,0 +1,82 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-pagination {
+	position: absolute;
+	top: 10px !important;
+	margin: 0;
+}
+
+.swiper-pagination-bullet {
+	padding: 5px 10px;
+	border-radius: 0;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 45px;
+	color:#F0BF4C;
+	opacity: 1;
+	background: none;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.slide-title {
+  margin-top: 65px;
+  font-size: 25px;
+  color: #F0BF4C;;
+}
+
+#year-2003 {
+  background-image: url("placeholders/bird.png");
+  background-position: center;
+}
+
+#year-2004 {
+  background-image: url("placeholders/worship.png");
+  background-position: center;
+}
+
+#year-2005 {
+  background-image: url("placeholders/volunteer.png");
+  background-position: center;
+}
+
+#year-2006 {
+  background-image: url("placeholders/sing.png");
+  background-position: center;
+}
+
+
+
+
+
+    
+
+    
+
+  
+
