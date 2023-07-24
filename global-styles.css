@@ -4,6 +4,7 @@ body {
   height: 100%;
 }
 
+/* global font and style */
 body {
   background: #eee;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -13,14 +14,18 @@ body {
   padding: 0;
 }
 
+/* year pagination position */
 .swiper-pagination {
-	position: absolute;
-	top: 10px !important;
-	margin: 0;
+	display: flex;
+  align-self: center;
+	bottom: 93% !important;
 }
 
+/* custom pagination bullet style */
 .swiper-pagination-bullet {
-	padding: 5px 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
 	border-radius: 0;
 	width: 100px;
 	height: 30px;
@@ -32,11 +37,35 @@ body {
 	background: none;
 }
 
+/* general style of nested and main swiper, possibly all swipers*/
+.nested-swiper,
 .swiper-container {
   width: 100%;
   height: 100%;
 }
 
+/* navigation for nested swipers */
+.swiper-button-prev {
+  transform:rotate(90deg);
+  top: initial;
+  left: initial;
+  top: 90.5%;
+  display: flex;
+  color: #084DA2;
+  align-self: center;
+}
+
+.swiper-button-next{
+  transform:rotate(90deg);
+  color: #084DA2;
+  top: initial;
+  right: initial;
+  display: flex;
+  align-self: center;
+  bottom: 0;
+}
+
+/* basic style of all sliders */
 .swiper-slide {
   text-align: center;
   background: #fff;
@@ -44,8 +73,9 @@ body {
   justify-content: center;
 }
 
+/* style slide title */
 .slide-title {
-  margin-top: 65px;
+  margin-top: 70px;
   font-size: 25px;
   color: #F0BF4C;;
 }
@@ -55,10 +85,27 @@ body {
   background-position: center;
 }
 
-#year-2004 {
-  background-image: url("placeholders/worship.png");
-  background-position: center;
-}
+/* Year 2004 nested slide events */
+
+  #year-2004-1 {
+    background-image: url("placeholders/sing.png");
+    background-position: center;
+  }
+
+  #year-2004-2 {
+    background-image: url("placeholders/volunteer.png");
+    background-position: center;
+  }
+
+  #year-2004-3 {
+    background-image: url("placeholders/bird.png");
+    background-position: center;
+  }
+
+  #year-2004-4 {
+    background-image: url("placeholders/film.png");
+    background-position: center;
+  }
 
 #year-2005 {
   background-image: url("placeholders/volunteer.png");

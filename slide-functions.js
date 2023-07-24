@@ -16,3 +16,16 @@ var swiper = new Swiper(".swiper-container", {
   },
   keyboard: true,
 });
+
+var swiper2004 = new Swiper(".nested-swiper", {
+  direction: "vertical",
+  navigation: {
+    prevEl: ".swiper-button-prev",                       
+    nextEl: ".swiper-button-next",
+  },
+  effect: "fade",
+  keyboard: true,
+  mousewheel: {
+    releaseOnEdges: true,
+  }
+})
