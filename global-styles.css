@@ -88,7 +88,7 @@ body {
 /* Year 2004 nested slide events */
 
   #year-2004-1 {
-    background-image: url("placeholders/sing.png");
+    background-image: url("placeholders/band.png");
     background-position: center;
   }
 
@@ -108,7 +108,7 @@ body {
   }
 
 #year-2005 {
-  background-image: url("placeholders/volunteer.png");
+  background-image: url("placeholders/worship.png");
   background-position: center;
 }
 
