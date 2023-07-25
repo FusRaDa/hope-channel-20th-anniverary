@@ -6,7 +6,7 @@ body {
 
 /* global font and style */
 body {
-  background: #eee;
+  /* background: #eee; */
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
@@ -18,7 +18,7 @@ body {
 .swiper-pagination {
 	display: flex;
   align-self: center;
-	bottom: 93% !important;
+	bottom: 90% !important;
 }
 
 /* custom pagination bullet style */
@@ -65,28 +65,35 @@ body {
   bottom: 0;
 }
 
-/* basic style of all sliders */
-.swiper-slide {
-  text-align: center;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-}
-
 /* style slide title */
 .slide-title {
-  margin-top: 70px;
-  font-size: 25px;
-  color: #F0BF4C;;
+  text-align: center;
+  margin-top: 125px;
+  color: #F0BF4C;
 }
 
+/* all slide containers center content */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+}
+
+.grid-container {
+  
+}
+
+
+
+/* year 2003 slide w/ tab gallery */
 #year-2003 {
   background-image: url("placeholders/bird.png");
   background-position: center;
+
 }
 
 /* Year 2004 nested slide events */
-
   #year-2004-1 {
     background-image: url("placeholders/band.png");
     background-position: center;
@@ -116,6 +123,7 @@ body {
   background-image: url("placeholders/sing.png");
   background-position: center;
 }
+
 
 
 
